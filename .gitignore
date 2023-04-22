@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environment variables
+.env
+.env.*
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Other files to ignore
+*.DS_Store
+Thumbs.db
