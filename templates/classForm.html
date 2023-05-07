@@ -5,7 +5,7 @@
 </head>
 <body>
     <h1>Select a Class</h1>
-    <form method="POST" action="{{ url_for('index') }}">
+    <form method="POST" action="/character">
         {{ form.csrf_token }}
         {{ form.className.label }} {{ form.className }}
         <button type="submit">Submit</button>

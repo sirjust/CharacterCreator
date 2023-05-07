@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Character Creator</title>
+</head>
+<body>
+    <h1>Select Your Character's Starting Info</h1>
+    <form method="POST" action="{{ url_for('index') }}">
+        {{ form.csrf_token }}
+        {{ form.characterName.label }} {{ form.characterName }} <br>
+        {{ form.dndClass.label }} {{ form.dndClass }} <br>
+        {{ form.proficiencies.label }} {{ form.proficiencies }} <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
