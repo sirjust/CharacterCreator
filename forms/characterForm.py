@@ -7,7 +7,7 @@ class CharacterForm(FlaskForm):
     dndClass = StringField('Class', default='', render_kw={'disabled': True})
     # race = SelectField('Race')
     # hitDie = StringField('Hit Die')
-    automaticProficiencies = SelectMultipleField('Proficiencies', choices=[], render_kw={'disabled': True})
+    automaticProficiencies = SelectMultipleField('Automatic Proficiencies', choices=[], render_kw={'disabled': True})
     proficiencyChoices = SelectMultipleField('Proficiency Choices')
 
     # savingThrows = SelectMultipleField('Saving Throws')
